@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - SportFeet</title>
+    <!-- Incluir Tailwind CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 font-sans">
+
+    <!-- Barra de navegación -->
+    <nav class="bg-gray-800 p-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <!-- Espacio para el logo -->
+            <div class="flex items-center">
+                <img src="./img/SportFeet.jpg" alt="Logo de Sportfeet" class="h-10 mr-2">
+                <a href="#" class="text-white text-2xl font-bold">SportFeet</a>
+            </div>
+            <ul class="flex space-x-4 text-white">
+                <li><a href="./index.html" class="hover:text-gray-300">Inicio</a></li>
+                <li><a href="./productos.html" class="hover:text-gray-300">Productos</a></li>
+                <li><a href="./contacto.html" class="hover:text-gray-300">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Contenido principal -->
+    <div class="container mx-auto py-8">
+        <div class="max-w-2xl mx-auto bg-white p-8 rounded-lg shadow-md">
+            <h2 class="text-2xl font-bold text-gray-800 mb-4">Contacto</h2>
+            <p class="text-gray-600 mb-6">¡Estamos aquí para ayudarte! Contáctanos completando el formulario a continuación.</p>
+            <!-- Formulario de contacto -->
+            <form action="#" method="POST" class="space-y-4">
+                <div>
+                    <label for="nombre" class="block text-gray-700 font-semibold">Nombre</label>
+                    <input type="text" id="nombre" name="nombre" class="w-full border-gray-300 rounded-md focus:ring-blue-500 focus:border-blue-500">
+                </div>
+                <div>
+                    <label for="email" class="block text-gray-700 font-semibold">Correo Electrónico</label>
+                    <input type="email" id="email" name="email" class="w-full border-gray-300 rounded-md focus:ring-blue-500 focus:border-blue-500">
+                </div>
+                <div>
+                    <label for="mensaje" class="block text-gray-700 font-semibold">Mensaje</label>
+                    <textarea id="mensaje" name="mensaje" rows="4" class="w-full border-gray-300 rounded-md focus:ring-blue-500 focus:border-blue-500"></textarea>
+                </div>
+                <button type="submit" class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-full inline-block transition duration-300">Enviar Mensaje</button>
+            </form>
+        </div>
+        <!-- Información de contacto -->
+        <div class="mt-8 bg-white p-8 rounded-lg shadow-md">
+            <h2 class="text-2xl font-bold text-gray-800 mb-4">Información de Contacto</h2>
+            <p class="text-gray-600 mb-4">Si tienes alguna pregunta o necesitas más información, no dudes en contactarnos directamente.</p>
+            <ul class="text-gray-700">
+                <li class="flex items-center mb-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2 text-gray-600" viewBox="0 0 20 20" fill="currentColor">
+                        <path d="M10 2a8 8 0 0 0-8 8c0 3.381 2.504 6.292 6 7.732V18c0 1.104.896 2 2 2s2-.896 2-2v-.268c3.496-1.44 6-4.351 6-7.732a8 8 0 0 0-8-8zm0 2a6 6 0 0 1 6 6c0 2.238-1.842 5.098-5 6.394-3.158-1.296-5-4.156-5-6.394a6 6 0 0 1 6-6zm0 4a2 2 0 1 0 0 4 2 2 0 0 0 0-4z"/>
+                    </svg>
+                    <span>Dirección: Alajuelita, San José, Costa Rica</span>
+                </li>
+                <li class="flex items-center mb-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2 text-gray-600" viewBox="0 0 20 20" fill="currentColor">
+                        <path d="M10 2a8 8 0 0 0-8 8c0 3.381 2.504 6.292 6 7.732V18c0 1.104.896 2 2 2s2-.896 2-2v-.268c3.496-1.44 6-4.351 6-7.732a8 8 0 0 0-8-8zm0 2a6 6 0 0 1 6 6c0 2.238-1.842 5.098-5 6.394-3.158-1.296-5-4.156-5-6.394a6 6 0 0 1 6-6zm0 4a2 2 0 1 0 0 4 2 2 0 0 0 0-4z"/>
+                    </svg>
+                    <span>Teléfono: +506 2200-0022</span>
+                </li>
+                <li class="flex items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2 text-gray-600" viewBox="0 0 20 20" fill="currentColor">
+                        <path d="M10 2a8 8 0 0 0-8 8c0 3.381 2.504 6.292 6 7.732V18c0 1.104.896 2 2 2s2-.896 2-2v-.268c3.496-1.44 6-4.351 6-7.732a8 8 0 0 0-8-8zm0 2a6 6 0 0 1 6 6c0 2.238-1.842 5.098-5 6.394-3.158-1.296-5-4.156-5-6.394a6 6 0 0 1 6-6zm0 4a2 2 0 1 0 0 4 2 2 0 0 0 0-4z"/>
+                    </svg>
+                    <span>Email: sportfeet@gmail.com</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Pie de página -->
+    <footer class="bg-gray-900 text-white py-4">
+        <div class="container mx-auto text-center">
+            <p>&copy; 2024 SportFeet. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
